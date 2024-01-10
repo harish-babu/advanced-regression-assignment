@@ -47,7 +47,16 @@ Here are the key predictors for the ridge regression
 | OverallQual_Excellent | 0.088              |
 | OverallQual_Very Good | 0.081              |
 | 2ndFlrSF              | 0.075              |
-       
+
+
+Here is the error metrics for ridge
+
+|           | Train | Test  |
+|----------:|------:|-------|
+| R-Squared | 0.948 | 0.899 |
+|       RSS | 3.862 | 3.199 |
+|       MSE | 0.004 | 0.007 |
+|      RMSE | 0.062 | 0.085 |
 
 ### Lasso Regression
 
@@ -64,6 +73,16 @@ Here are the key predictors for lasso regression
 | OverallQual_Very Good | 0.099             |
 
 
+
+Here are the key error metrics for lasso
+
+
+|           | Train | Test  |
+|----------:|------:|-------|
+| R-Squared | 0.938 | 0.897 |
+|       RSS | 4.618 | 3.261 |
+|       MSE | 0.005 | 0.007 |
+|      RMSE | 0.067 | 0.086 |
 
 
 
